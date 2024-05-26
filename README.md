@@ -12,7 +12,7 @@
 # 1. Clonar el Repositorio
 
 bash
-git clone https://github.com/tu-usuario/broobe-challenge.git
+git clone https://github.com/FacundoBustelo/BroobeChallenge.git
 cd broobe-challenge
 
 # 2. Instalar Dependencias de PHP
@@ -36,3 +36,9 @@ GOOGLE_API_KEY=api_key
 php artisan key:generate
 # 6. Migrar la Base de Datos
 php artisan migrate
+# 7. ejecutar seeder
+php artisan db:seed --class=CategorySeeder
+php artisan db:seed --class=StrategySeeder
+# 8. ejecutar aplicacion
+npm run dev
+php artisan serve
