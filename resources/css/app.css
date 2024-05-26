@@ -1,0 +1,252 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.banner {
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-item a {
+    color: #393939;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.navbar-item a:hover {
+    background-color: #53c9fb;
+    border-radius: 4px;
+}
+
+.content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* form */
+.form-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 95%;
+}
+.from-metrics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.form-url {
+    margin: 10px;
+    flex: 1;
+    max-width: 250px;
+}
+.form-categories {
+    margin: 10px;
+    flex: 1;
+    max-width: 400px;
+}
+.form-strategies {
+    margin: 10px;
+    flex: 1;
+    max-width: 110px;
+}
+
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.form-input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.form-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.form-check-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form-check {
+    flex: 1 1 45%;
+    display: flex;
+    align-items: center;
+}
+.form-check label{
+    color: #333;
+    font-size: small;
+}
+
+/* .form-check-input {
+    margin-right: 10px;
+} */
+.form-btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.form-btn {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 150px;
+    transition: background-color 0.3s;
+}
+
+.form-btn:hover {
+    background-color: #0056b3;
+}
+.loadingContainer {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.message-container.success {
+    padding: 15px;
+    border: 1px solid #c3e6cb;
+    background-color: #d4edda;
+    color: #155724;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.message-container.error {
+    padding: 15px;
+    border: 1px solid #e74c3c;
+    background-color: #fce4e4;
+    color: #e74c3c;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.message-container h6 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* result */
+.div-results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+.div-box-result{
+    background-color: #f5f5f3;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    height: 70px;
+}
+.div-box-result h2{
+    font-size: 1em;
+    margin: 10px 0;
+}
+.div-box-result p{
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+/* history table */
+.history-metric-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    margin: 25px 0;
+    font-size: 0.9em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.history-metric-table thead tr {
+    background-color: #58ccfb;
+    color: #ffffff;
+    text-align: center;
+}
+
+.history-metric-table th,
+.history-metric-table td {
+    padding: 12px 15px;
+    text-align: center;
+
+}
+
+.history-metric-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.history-metric-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+.history-metric-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
