@@ -11,7 +11,7 @@
 
 # 1. Clonar el Repositorio
 
-```bash
+bash
 git clone https://github.com/tu-usuario/broobe-challenge.git
 cd broobe-challenge
 
